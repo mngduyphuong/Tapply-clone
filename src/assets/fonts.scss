@@ -1,5 +1,28 @@
 @font-face {
-    font-family: SVN- Gotham;
-    font-style: normal;
-    src: url('./SVN-Gotham-Regular.otf');
+  font-family: 'SVN-Gotham';
+
+  src: url('./SVN-Gotham/SVN-Gotham Regular.otf');        	
+}
+
+@font-face {
+  font-family: 'SVN-Gotham';
+  font-weight: 400;
+  src: url('./SVN-Gotham/SVN-Gotham Light.otf');        	
+}
+
+
+@font-face {
+  font-family: 'SVN-Gotham';
+  font-weight: 700;
+  src: url('./SVN-Gotham/SVN-Gotham Bold.ttf');        	
   }
+  @font-face {
+    font-family: 'SVN-Gotham';
+    font-weight: 500;
+    src: url('./SVN-Gotham/SVN-Gotham Book.otf');        	
+    }
+    @font-face {
+      font-family: 'SVN-Gotham';
+      font-weight: 300;
+      src: url('./SVN-Gotham/SVN-Gotham Thin.otf');        	
+    }

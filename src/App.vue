@@ -21,9 +21,6 @@ export default {
   color: #2c3e50;
   margin-top: 60px;
   //variables
-  @font-face {
-    font-family: 'SVN- Gotham';
-    src: url('./assets/SVN-Gotham-Black.otf');
-  }
+  
 }
 </style>

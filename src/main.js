@@ -15,6 +15,9 @@ Vue.use(IconsPlugin)
 //vue-router
 import { router } from './routes'
 
+//fonts
+import './assets/fonts.scss'
+
 new Vue({
   router,
   render: h => h(App),
