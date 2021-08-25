@@ -1,7 +1,6 @@
 <template>
   <div>
-    <router-link to="/">Home</router-link> |
-    <router-link to="/Hello">Hello</router-link>
+    
     <router-view/>
   </div>
 </template>
@@ -13,7 +12,7 @@ export default {
 }
 </script>
 
-<style lang="scss">
+<style lang="scss" >
 #app {
   font-family: Avenir, Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
@@ -21,7 +20,10 @@ export default {
   text-align: center;
   color: #2c3e50;
   margin-top: 60px;
-
   //variables
+  @font-face {
+    font-family: 'SVN- Gotham';
+    src: url('./assets/SVN-Gotham-Black.otf');
+  }
 }
 </style>

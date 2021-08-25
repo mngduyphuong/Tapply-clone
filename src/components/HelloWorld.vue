@@ -1,5 +1,6 @@
 <template>
-  <div>
+  <div class="container">
+    <Menu></Menu>
   <b-dropdown id="dropdown-1" text="Dropdown Button" class="m-md-2">
     <b-dropdown-item>First Action</b-dropdown-item>
     <b-dropdown-item>Second Action</b-dropdown-item>
@@ -12,8 +13,13 @@
 </template>
 
 <script>
+import Menu from '../components/MenuWhite'
 export default {
+  
   name: 'HelloWorld',
+  components:{
+    Menu
+  },
   props: {
     msg: String
   }
